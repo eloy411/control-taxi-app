@@ -22,14 +22,14 @@ const Fetch = async (datos, formData) => {
 
         try {
 
-            return await fetch(`https://controltaxieloy.herokuapp.com/${url}`, requestOptions)
+            return await fetch(`https://control-taxi.onrender.com/${url}`, requestOptions)
         } catch (error) {
             console.log(error)
         }
 
     } else {
 
-        return fetch(`https://controltaxieloy.herokuapp.com/${url}`)
+        return fetch(`https://control-taxi.onrender.com/${url}`)
     }
 }
 
